@@ -9,11 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.4.0",
+    "stripe": "^10.10.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0"
   }
